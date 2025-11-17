@@ -1,0 +1,66 @@
+#root {
+  min-width: 400px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.todoEditor h3 {
+  margin: 10px 0;
+}
+
+input {
+  flex: 1;
+  box-sizing: border-box;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.todoEditor button {
+  cursor: pointer;
+  width: 80px;
+  border: none;
+  background-color: #101319;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+}
+
+.editor_wrapper {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0 16px 0;
+}
+
+.todoList {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.todoList ul {
+  list-style: none;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.todoList li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.todoList button {
+  padding: 10px;
+}
+
+.todoContent {
+  flex: 1;
+}
+
+.todoCheckbox {
+  flex: 0 0 10px;
+}
